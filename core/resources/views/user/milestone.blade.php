@@ -152,7 +152,7 @@
                     <p>Are you sure you want to RELEASE this payment?</p>
                 </div>
                 <div class="modal-footer">
-                    <form action="{{route('release.amount')}}" method="post">
+                    <form action="{{route('release.amount')}}" method="post" onsubmit="disableReleaseButton()">
                         @csrf
                         <input type="hidden" name="id" id="confirm_id">
                         <button type="submit" id="confirm_accept" class="btn btn-success">Yes</button>
@@ -174,7 +174,7 @@
                     <h3 class="modal-title"><i class="fa fa-plus"></i> Create Payment </h3>
                 </div>
 
-                <form action="{{route('get.mileStone')}}" method="post">
+                <form action="{{route('get.mileStone')}}" method="post" onsubmit="disableMilestoneButton()">
                     @csrf
                     <div class="modal-body">
                         <label for="amount" class="black">Amount: </label>
@@ -198,7 +198,7 @@
                         <input type="hidden" name="user_id" id="user_id">
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-success">Yes</button>
+                        <button type="submit" class="btn btn-success" id="milestone_btn">Yes</button>
                         <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
                     </div>
                 </form>
@@ -260,5 +260,13 @@
 
         });
 
+        // Disable buttons when the form is submitted
+        disableReleaseButton = () => {
+            $('#confirm_accept').attr('disabled', true)
+        }
+
+        disableMilestoneButton = () => {
+            $('#milestone_btn').attr('disabled', true)
+        }
     </script>
 @endsection
