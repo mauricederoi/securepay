@@ -128,7 +128,7 @@
                         <div class="panel-body">
                             <div class="col-md-12">
 
-                                <form method="post" action="{{route('withdraw.submit')}}">
+                                <form method="post" action="{{route('withdraw.submit')}}" onsubmit="disableWithdrawButton()">
                                     {{ csrf_field() }}
                                     <input type="hidden" name="withdraw_id" value="{{ $withdraw->id }}">
                                     <div class="row">
@@ -146,7 +146,7 @@
                                         </div>
 
                                         <div class="col-md-12" style="margin-top:30px;">
-                                            <button type="submit"
+                                            <button type="submit" id="withdraw_btn" 
                                                     class="btn btn-primary bold btn-lg custom-sbtn uppercase btn-block"><i
                                                         class="fa fa-send"></i> Submit
                                             </button>
@@ -165,6 +165,10 @@
     <!-- About Hostonion End -->
 
 
-
+    <script type="text/javascript">
+        disableWithdrawButton = () => {
+            $('#withdraw_btn').attr('disabled', true)
+        }
+    </script>
 
 @stop
