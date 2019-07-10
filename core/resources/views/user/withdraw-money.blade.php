@@ -41,7 +41,7 @@
                                             <h4 class="modal-title">Withdraw via <strong>{{$gate->name}}</strong></h4>
                                         </div>
                                         <div class="modal-body">
-                                            <form method="POST" action="{{route('withdraw.preview') }}">
+                                            <form method="POST" action="{{route('withdraw.preview') }}" onsubmit="disableWithdrawButton()">
                                                 {{csrf_field()}}
                                                 <input type="hidden" name="method_id" value="{{$gate->id}}">
                                                 <label class="col-md-12 modal-msg-heading"><strong>Limit</strong>
@@ -61,7 +61,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <button type="submit" class="btn btn-primary btn-block">
+                                                    <button type="submit" class="btn btn-primary btn-block" id="withdraw_btn">
                                                         Preview
                                                     </button>
                                                 </div>
@@ -78,6 +78,10 @@
     </div>
     <!-- About Hostonion End -->
 
-
+    <script type="text/javascript">
+        disableReleaseButton = () => {
+            $('#withdraw_btn').attr('disabled', true)
+        }
+    </script>
 
 @stop
