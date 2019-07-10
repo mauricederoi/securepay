@@ -1,0 +1,33 @@
+[22-Jun-2019 06:09:00 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:09:00 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:09:07 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:09:07 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:09:14 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:09:14 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:09:22 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:09:22 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:09:25 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:09:25 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:11:41 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:11:41 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:11:51 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:11:51 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:12:07 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:12:07 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:12:52 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:12:52 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:13:01 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:13:01 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:13:47 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:13:47 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:15:44 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:15:44 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 06:15:47 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 06:15:47 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 08:47:53 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 08:47:53 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 08:47:53 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 08:47:53 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Jun-2019 13:40:48 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/irescueg/public_html/securepay/core/vendor/symfony/finder/Comparator/NumberComparator.php on line 42
+[22-Jun-2019 13:40:48 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Jun-2019 09:16:36 UTC] PHP Warning:  Use of undefined constant lax - assumed 'lax' (this will throw an Error in a future version of PHP) in /home/irescueg/public_html/securepay/core/config/session.php on line 195
